@@ -29,7 +29,7 @@
             &kp GRAVE  &kp BSLH  &kp LEFT  &kp RIGHT                                                            &kp UP     &kp DOWN   &kp LBKT  &kp RBKT
                                                           &kp LGUI  &kp LEFT_ALT  &kp RIGHT_CONTROL  &kp RGUI
                                                                     &kp HOME      &kp PAGE_UP
-                                           &kp BACKSPACE  &kp DEL   &kp END       &kp PAGE_DOWN      &kp ENTER  &kp SPACE
+                                           &kp BACKSPACE  &kp DEL   &kp END       &kp PAGE_DOWN      &kp A  &kp SPACE
             >;
         };
 
