@@ -36,10 +36,10 @@
         lower_layer {
             bindings = <
 &kp F12  &kp F1  &kp F2      &kp F3             &kp F4           &kp F5                  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
-&tog 0   &trans  &trans      &trans             &trans           &trans                  &tog 2  &kp N7  &kp N8  &kp N9  &trans   &none
+&to 0    &trans  &trans      &trans             &trans           &trans                  &tog 2  &kp N7  &kp N8  &kp N9  &trans   &none
 &trans   &trans  &trans      &trans             &trans           &trans                  &trans  &kp N4  &kp N5  &kp N6  &trans   &trans
 &trans   &trans  &trans      &trans             &trans           &trans                  &trans  &kp N1  &kp N2  &kp N3  &trans   &trans
-         &trans  &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP                                  &kp N0  &trans  &trans  &trans
+         &tog 0  &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP                                  &kp N0  &trans  &trans  &trans
                                                                  &trans  &trans  &trans  &trans
                                                                          &trans  &trans
                                                 &trans           &trans  &trans  &trans  &trans  &trans
@@ -48,8 +48,8 @@
 
         adjust_layer {
             bindings = <
-&tog 0  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                &none        &none       &none  &none  &none  &none
-&tog 0  &out OUT_USB  &out OUT_BLE  &none         &sys_reset    &none                       &none        &sys_reset  &none  &none  &none  &tog 1
+&none   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                &none        &none       &none  &none  &none  &none
+&to 0   &out OUT_USB  &out OUT_BLE  &none         &sys_reset    &none                       &none        &sys_reset  &none  &none  &none  &tog 1
 &trans  &none         &none         &none         &none         &none                       &none        &none       &none  &none  &none  &none
 &none   &none         &bt BT_CLR    &none         &none         &bootloader                 &bootloader  &none       &none  &none  &none  &none
         &none         &none         &none         &none                                                  &none       &none  &none  &none
